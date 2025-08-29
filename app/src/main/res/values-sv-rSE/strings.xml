@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Min Applikation</string>
+    <string name="earth">Jorden</string>
+    <string name="moon">Måne</string>
+    <string name="sun">Solen</string>
 </resources>

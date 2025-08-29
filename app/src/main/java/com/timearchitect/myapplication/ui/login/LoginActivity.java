@@ -122,6 +122,13 @@ public class LoginActivity extends AppCompatActivity {
                         passwordEditText.getText().toString());
             }
         });
+try {
+        Bundle extras = getIntent().getExtras();
+        String message = extras.getString("message");
+    Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+} catch (Exception e) {
+    throw new RuntimeException(e);
+}
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
